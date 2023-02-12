@@ -23,3 +23,139 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_2.o "..\\EX_2.c" 
 gcc -o EX_2.exe EX_2.o 
 Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+09:11:33 **** Rebuild of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3.o "..\\EX_3.c" 
+gcc -o EX_3.exe EX_3.o 
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+09:12:11 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3.o "..\\EX_3.c" 
+..\EX_3.c: In function 'main':
+..\EX_3.c:17:26: error: invalid operands to binary & (have 'int *' and 'int')
+   scanf("%d" "%d",&num1  &num2);
+                   ~~~~~  ^
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+09:12:24 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3.o "..\\EX_3.c" 
+..\EX_3.c: In function 'main':
+..\EX_3.c:17:26: error: invalid operands to binary & (have 'int *' and 'int')
+   scanf("%d" "%d",&num1  &num2);
+                   ~~~~~  ^
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+09:12:27 **** Incremental Build of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_3.o "..\\EX_3.c" 
+gcc -o EX_3.exe EX_3.o 
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+09:14:56 **** Rebuild of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_4.o "..\\EX_4.c" 
+..\EX_4.c: In function 'main':
+..\EX_4.c:19:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("\nProduct: %d\n",num1*num2);
+                       ^
+gcc -o EX_4.exe EX_4.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+09:15:15 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_4.o "..\\EX_4.c" 
+gcc -o EX_4.exe EX_4.o 
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+09:22:52 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_4.o "..\\EX_4.c" 
+gcc -o EX_4.exe EX_4.o 
+09:32:12 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_1.o "..\\EX_1.c" 
+gcc -o EX_1.exe EX_1.o 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+09:32:15 **** Rebuild of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_5.o "..\\EX_5.c" 
+..\EX_5.c: In function 'main':
+..\EX_5.c:19:39: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("\nASCII value of %c = %d : %f\n",x,x);
+                                       ^
+gcc -o EX_5.exe EX_5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+09:32:41 **** Incremental Build of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_5.o "..\\EX_5.c" 
+gcc -o EX_5.exe EX_5.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_5
+09:37:34 **** Rebuild of configuration Debug for project EX_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_6.o "..\\EX_6.c" 
+gcc -o EX_6.exe EX_6.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_5
+09:40:34 **** Incremental Build of configuration Debug for project EX_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_6.o "..\\EX_6.c" 
+gcc -o EX_6.exe EX_6.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_5
+09:42:22 **** Incremental Build of configuration Debug for project EX_6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_6.o "..\\EX_6.c" 
+gcc -o EX_6.exe EX_6.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_5
+Info: Nothing to build for EX_6
+09:50:00 **** Rebuild of configuration Debug for project EX_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_7.o "..\\EX_7.c" 
+..\EX_7.c: In function 'main':
+..\EX_7.c:13:11: warning: unused variable 'temp' [-Wunused-variable]
+   int a,b,temp;
+           ^~~~
+gcc -o EX_7.exe EX_7.o 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_5
+Info: Nothing to build for EX_6
+09:50:18 **** Incremental Build of configuration Debug for project EX_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_7.o "..\\EX_7.c" 
+gcc -o EX_7.exe EX_7.o 
