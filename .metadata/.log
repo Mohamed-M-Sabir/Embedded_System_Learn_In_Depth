@@ -266,3 +266,12 @@ java.io.FileNotFoundException: http://gnuarmeclipse.sourceforge.net/updates/cont
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-02-12 06:32:47.386
 !MESSAGE Indexed 'EX_2' (1 sources, 10 headers) in 0.199 sec: 875 declarations; 1,698 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-02-12 08:58:08.154
+!MESSAGE Indexed 'EX_2' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-02-12 09:02:38.606
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-02-12 09:02:38.608
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
