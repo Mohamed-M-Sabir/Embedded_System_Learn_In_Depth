@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project>
-	<configuration id="cdt.managedbuild.config.gnu.mingw.exe.debug.706720924" name="Debug">
+	<configuration id="cdt.managedbuild.config.gnu.mingw.exe.debug.1668443366" name="Debug">
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="org.eclipse.cdt.managedbuilder.core.GCCBuiltinSpecsDetectorMinGW">
 				<language id="org.eclipse.cdt.core.gcc">
@@ -1666,7 +1666,7 @@
 			</provider>
 		</extension>
 	</configuration>
-	<configuration id="cdt.managedbuild.config.gnu.mingw.exe.release.538011482" name="Release">
+	<configuration id="cdt.managedbuild.config.gnu.mingw.exe.release.1752342390" name="Release">
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="org.eclipse.cdt.managedbuilder.core.GCCBuiltinSpecsDetectorMinGW">
 				<language id="org.eclipse.cdt.core.gcc">

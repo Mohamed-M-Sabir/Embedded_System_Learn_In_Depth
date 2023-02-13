@@ -1,0 +1,28 @@
+/*
+ * EX_2.c
+ *
+ *  Created on: Feb 12, 2023
+ *      Author: Mohamed Saber
+ */
+
+
+#include<stdio.h>
+
+int main(){
+
+	char character;
+
+	printf("Enter the character you want to check: ");
+	fflush(stdout);
+	scanf("%d",&charactercharacter);
+	fflush(stdin);
+
+	if(character=='i'||'o'||'e'||'a'||'u'||'I'||'O'||'E'||'A'||'U')
+		printf("%d is vowel",character);
+
+	else
+		printf("%d is constant",character);
+
+
+	return 0;
+}
