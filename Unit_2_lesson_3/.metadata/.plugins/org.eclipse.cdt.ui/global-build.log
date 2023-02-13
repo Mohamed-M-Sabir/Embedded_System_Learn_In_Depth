@@ -1,0 +1,10 @@
+04:04:11 **** Rebuild of configuration Debug for project EX_8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_8.o "..\\EX_8.c" 
+gcc -o EX_8.exe EX_8.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file EX_8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:18:50 **** Rebuild of configuration Debug for project EX8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX8.o "..\\EX8.c" 
+gcc -o EX8.exe EX8.o 

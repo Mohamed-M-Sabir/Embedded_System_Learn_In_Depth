@@ -1,1 +1,7 @@
-Info: Nothing to build for EX_4
+04:36:25 **** Rebuild of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o EX_4.o "..\\EX_4.c" 
+gcc -o EX_4.exe EX_4.o 
+
+04:36:27 Build Finished (took 1s.776ms)
+
