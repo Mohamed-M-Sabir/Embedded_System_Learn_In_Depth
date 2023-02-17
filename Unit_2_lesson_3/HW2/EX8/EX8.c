@@ -19,6 +19,7 @@
 int main(){
 
 	float num1,num2,sum;
+
 	char op;
 
 	printf("please enter two operands: ");
