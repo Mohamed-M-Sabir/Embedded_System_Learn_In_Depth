@@ -1,0 +1,42 @@
+/*
+ ============================================================================
+ Name        : EX_4.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int power(int base,int pow);
+
+int main(void) {
+
+	int base,pow,result;
+	printf("Enter the base and power");
+	fflush(stdout);
+	scanf("%d %d",&base,&pow);
+	fflush(stdin);
+
+	result=power( base, pow);
+	printf("the result is : %d",result);
+
+	return 0;
+}
+
+
+
+int power(int base,int pow)
+{
+	if (pow==0)
+	{
+		return 1;
+	}
+	else{
+
+	return base*power(base,pow-1);
+	}
+}

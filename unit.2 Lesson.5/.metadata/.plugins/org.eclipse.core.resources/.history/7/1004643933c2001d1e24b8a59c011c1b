@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : EX_2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int fact(int num);
+
+int main(void) {
+
+	int x;
+	x=fact(5);
+	printf("the factorial is %d ",x);
+	fflush(stdout);
+	return 0;
+}
+
+
+
+int fact(int num)
+{
+
+	//if (num!=0)
+
+
+
+	return  num*fact(num-1) ;
+
+
+}
