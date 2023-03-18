@@ -1,0 +1,53 @@
+/*
+ ============================================================================
+ Name        : Q8.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int arr[100],size,number;
+	printf("Please Enter a number");
+	fflush(stdout);
+	scanf("%d",&number);
+	fflush(stdin);
+
+	printf("Please Enter the size of the array");
+	fflush(stdout);
+	scanf("%d",&size);
+	fflush(stdin);
+
+	printf("Please Enter the values of the array");
+	fflush(stdout);
+	for(int i=0 ; i<size ; i++)
+		{
+			scanf("%d",arr[i]);
+
+		}
+
+	printf("the last occurence of the number %d in the array is index : %d",number,last(arr,number,size));
+	return 0;
+}
+
+
+int last(int arr[],int num,int arr_size)
+{
+	int i,flag;
+	for(i=0 ; i<arr_size ; i++)
+	{
+		if (arr[i]==num)
+		{
+			flag=i;
+		}
+
+
+	}
+	return flag;
+}

@@ -1,0 +1,62 @@
+/*
+ ============================================================================
+ Name        : Q2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void swap(int arr_A[] , int arr_B[] , int size_A , int size_B);
+
+int main() {
+
+	int size_A=5,size_B=7;
+
+	int arr_A[5]={5,5,5,5,5};
+	int arr_B[7]={7,7,7,7,7,7,7};
+
+	swap(arr_A,arr_B,size_A,size_B);
+
+	return 0;
+}
+
+
+void swap(int arr_A[] , int arr_B[] , int size_A , int size_B)
+{
+	int temp[20],size,i;
+
+	if (size_A<size_B)
+	{
+		size=size_A;
+	}
+	else
+	{
+		size=size_B;
+	}
+	for (i=0 ; i<size ; i++)
+	{
+		temp[i]=arr_A[i];
+		arr_A[i]=arr_B[i];
+		arr_B[i]=temp[i];
+
+	}
+
+	printf("the arr_A after swapping is = ");
+	fflush(stdout);
+	for (i=0 ; i<size ; i++)
+	{
+		printf("%d\n",arr_A[i]);
+	}
+
+	printf("the arr_B after swapping is = ");
+		fflush(stdout);
+		for (i=0 ; i<size ; i++)
+		{
+			printf("%d",arr_B[i]);
+		}
+}

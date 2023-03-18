@@ -1,0 +1,11 @@
+06:55:14 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_4.o" "..\\src\\EX_4.c" 
+..\src\EX_4.c: In function 'power':
+..\src\EX_4.c:36:11: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   return 1,2;
+           ^
+gcc -o EX_4.exe "src\\EX_4.o" 
+
+06:55:16 Build Finished (took 2s.95ms)
+

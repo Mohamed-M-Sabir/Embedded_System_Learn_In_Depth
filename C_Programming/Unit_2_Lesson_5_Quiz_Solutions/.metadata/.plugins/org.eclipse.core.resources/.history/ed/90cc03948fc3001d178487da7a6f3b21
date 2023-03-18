@@ -1,0 +1,42 @@
+/*
+ ============================================================================
+ Name        : Q7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int number,result;
+	printf("Please Enter a number");
+	fflush(stdout);
+	scanf("%d",&number);
+	fflush(stdin);
+	result=power_3(number);
+	printf("\nReturn : %d",result);
+	fflush(stdout);
+	return 0;
+
+}
+
+
+
+int power_3(int number)
+{
+	if (number%3==0)
+	{
+		return 0 ;
+
+	}
+
+	else
+	{
+		return 1;
+	}
+}

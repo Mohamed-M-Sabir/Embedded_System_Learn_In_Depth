@@ -1,8 +1,0 @@
-16:23:37 **** Incremental Build of configuration Debug for project EX_1 ****
-Info: Internal Builder is used for build
-gcc -o EX_1.exe "src\\EX_1.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file EX_1.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-
-16:23:38 Build Finished (took 1s.24ms)
-

@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : Q5.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int clear_bit(int number,int bit_pos);
+
+int main(void) {
+
+	int number,pos;
+	printf("Please Enter a number");
+	fflush(stdout);
+	scanf("%d",&number);
+	fflush(stdin);
+
+	printf("Please Enter the bit position");
+	fflush(stdout);
+	scanf("%d",&pos);
+	fflush(stdin);
+
+	printf("the number after clearing the bit is : %d",clear(number));
+	return 0;
+}
+
+
+int clear_bit(int number,int bit_pos)
+{
+	int new_number;
+	new_number=number&~(1<<bit_pos);
+
+	return new_number;
+}
