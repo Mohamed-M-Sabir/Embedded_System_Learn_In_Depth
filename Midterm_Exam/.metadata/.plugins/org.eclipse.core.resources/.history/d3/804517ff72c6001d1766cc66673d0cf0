@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : Q_7_c.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int sum_numbers(int n);
+
+int main(void) {
+
+	printf("the sum of numbers is : %d",sum_numbers(100));
+	fflush(stdout);
+	return 0;
+}
+
+
+
+int sum_numbers(int n)
+{
+	int count=0;
+
+	if(count<=100)
+	{
+		return count+sum_numbers(n-count++);
+
+	}
+	else
+		return 0;
+
+}

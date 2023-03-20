@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Q_10_c function to count the max number of ones between two zeros/src/Q.c&apos; to &apos;Q_10_c function to count the max number of ones between two zeros.c&apos;" description="Rename resource &apos;Q.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Q.c" name="Q_10_c function to count the max number of ones between two zeros.c" stamp="1679252908708" updateReferences="true"/>
+</session>

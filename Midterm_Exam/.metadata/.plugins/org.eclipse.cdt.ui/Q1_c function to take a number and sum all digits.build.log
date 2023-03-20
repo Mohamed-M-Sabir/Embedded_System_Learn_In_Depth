@@ -1,0 +1,9 @@
+10:44:44 **** Incremental Build of configuration Debug for project Q1_c function to take a number and sum all digits ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q1_c function to take a number and sum all digits.o" "..\\src\\Q1_c function to take a number and sum all digits.c" 
+gcc -o "Q1_c function to take a number and sum all digits.exe" "src\\Q1_c function to take a number and sum all digits.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Q1_c function to take a number and sum all digits.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+10:44:46 Build Finished (took 1s.234ms)
+

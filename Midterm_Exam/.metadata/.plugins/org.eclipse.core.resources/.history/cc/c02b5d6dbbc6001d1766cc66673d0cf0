@@ -1,0 +1,56 @@
+/*
+ ============================================================================
+ Name        : Q_6_c.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int a[7]={4,2,5,2,5,7,4};
+	int size=sizeof(a)/sizeof(int);
+	for(int i=0 ; i<size ; i++){
+
+		int number=a[i];
+		int index=0;
+		unique_number(a,number,index,size);
+	}
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}
+
+
+
+int unique_number(int arr[],int number,int index,int size)
+{
+        int flag=-1;
+		if (arr[index]==number)
+		{
+			flag++;
+			unique_number(arr,number,index++,size);
+		}
+
+		else if(arr[index]!=number && index<7)
+		{
+			unique_number(arr,number,index++,size);
+
+		}
+		else
+		{
+			if(flag>0)
+			{
+				return 0;
+			}
+			else
+			{
+				return number;
+			}
+		}
+
+}

@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : Q.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+double square_root(double number);
+
+int main(void) {
+
+	double number;
+	printf("Please enter a number: ");
+	fflush(stdout);
+	scanf("%lf",&number);
+
+	printf("the square root is : %lf",square_root(number));
+	return 0;
+}
+
+double square_root(double number)
+{
+	int flag=1;
+	double result=number;
+	while(result>0)
+	{
+		result=result/2;
+		flag++;
+	}
+    printf("%d",flag);
+	return number/flag;
+}

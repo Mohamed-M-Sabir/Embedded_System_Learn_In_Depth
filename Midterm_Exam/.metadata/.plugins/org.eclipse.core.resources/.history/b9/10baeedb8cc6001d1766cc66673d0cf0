@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : Q_2_c.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}
+
+int square_root(double number)
+{
+	int flag=1;
+	while(number>0)
+	{
+		number/=2;
+		flag++;
+	}
+
+	return number/flag;
+}

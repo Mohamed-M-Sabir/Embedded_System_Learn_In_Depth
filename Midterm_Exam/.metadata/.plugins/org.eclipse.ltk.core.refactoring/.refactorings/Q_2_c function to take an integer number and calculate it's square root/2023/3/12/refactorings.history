@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Q_2_c function to take an integer number and calculate it&apos;s square root/src/Q.c&apos; to &apos;Q_2_c function to take an integer number and calculate it&apos;s square root.c&apos;" description="Rename resource &apos;Q.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Q.c" name="Q_2_c function to take an integer number and calculate it&apos;s square root.c" stamp="1679271588418" updateReferences="true"/>
+</session>
