@@ -11,18 +11,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int unique_number(int arr[],int size);
+int unique_number(int arr[],int number,int index,int size);
 
 int main(void) {
 
 	int a[7]={4,2,5,2,5,7,4};
 	int size=sizeof(a)/sizeof(int);
+	for(int i=0 ; i<size ; i++){
 
-		printf("the unique number is : %d",unique_number(a,size));
-
-
-		return 0;
+		int number=a[i];
+		int index=0;
+		unique_number(a,number,index,size);
+	}
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
 }
+
+
 
 int unique_number(int arr[],int size)
 {

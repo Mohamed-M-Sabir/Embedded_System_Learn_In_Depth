@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int unique_number(int arr[],int size);
+int unique_number(int arr[],int number,int index,int size);
 
 int main(void) {
 
@@ -23,6 +23,8 @@ int main(void) {
 
 		return 0;
 }
+
+
 
 int unique_number(int arr[],int size)
 {
