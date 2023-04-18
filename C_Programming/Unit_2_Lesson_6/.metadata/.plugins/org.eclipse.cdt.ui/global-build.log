@@ -1,0 +1,243 @@
+07:28:39 **** Rebuild of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_1.o" "..\\src\\EX_1.c" 
+..\src\EX_1.c: In function 'main':
+..\src\EX_1.c:33:10: warning: format '%i' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%i",s.roll);
+          ^
+..\src\EX_1.c:37:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+  scanf("%f",s.marks);
+          ^
+..\src\EX_1.c:42:18: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  printf(" name: %c\n roll:%d\n marks:%f",s.name,s.roll,s.marks);
+                  ^
+gcc -o EX_1.exe "src\\EX_1.o" 
+07:33:58 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_1.o" "..\\src\\EX_1.c" 
+..\src\EX_1.c: In function 'main':
+..\src\EX_1.c:42:18: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  printf(" name: %c\n roll:%d\n marks:%f",s.name,s.roll,s.marks);
+                  ^
+gcc -o EX_1.exe "src\\EX_1.o" 
+Info: Nothing to build for EX_1
+07:35:39 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_1.o" "..\\src\\EX_1.c" 
+..\src\EX_1.c: In function 'main':
+..\src\EX_1.c:42:18: warning: format '%i' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  printf(" name: %i\n roll:%d\n marks:%f",s.name,s.roll,s.marks);
+                  ^
+gcc -o EX_1.exe "src\\EX_1.o" 
+07:35:56 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_1.o" "..\\src\\EX_1.c" 
+gcc -o EX_1.exe "src\\EX_1.o" 
+Info: Nothing to build for EX_1
+07:37:29 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_1.o" "..\\src\\EX_1.c" 
+gcc -o EX_1.exe "src\\EX_1.o" 
+Info: Nothing to build for EX_1
+07:38:50 **** Incremental Build of configuration Debug for project EX_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_1.o" "..\\src\\EX_1.c" 
+gcc -o EX_1.exe "src\\EX_1.o" 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_1
+07:56:42 **** Rebuild of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+..\src\EX_2.c: In function 'main':
+..\src\EX_2.c:50:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("Sum of distances=%.2f'-.2f\" ",Lsum.feet,Lsum.inch);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o EX_2.exe "src\\EX_2.o" 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+07:58:47 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+07:59:38 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+08:03:53 **** Incremental Build of configuration Debug for project EX_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_2.o" "..\\src\\EX_2.c" 
+gcc -o EX_2.exe "src\\EX_2.o" 
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+08:21:01 **** Rebuild of configuration Debug for project EX_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_3.o" "..\\src\\EX_3.c" 
+gcc -o EX_3.exe "src\\EX_3.o" 
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+15:33:29 **** Rebuild of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_4.o" "..\\src\\EX_4.c" 
+..\src\EX_4.c: In function 'main':
+..\src\EX_4.c:32:8: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  gets(s.name[i]);
+        ^
+        ->
+..\src\EX_4.c:35:15: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  scanf("%i",&s.roll[i]);
+               ^
+               ->
+..\src\EX_4.c:39:15: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  scanf("%f",&s.marks[i]);
+               ^
+               ->
+..\src\EX_4.c:46:57: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,i,i,s.name[i],s.roll[i],s.marks[i]);
+                                                         ^
+                                                         ->
+..\src\EX_4.c:46:67: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,i,i,s.name[i],s.roll[i],s.marks[i]);
+                                                                   ^
+                                                                   ->
+..\src\EX_4.c:46:77: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,i,i,s.name[i],s.roll[i],s.marks[i]);
+                                                                             ^
+                                                                             ->
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+15:34:23 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_4.o" "..\\src\\EX_4.c" 
+..\src\EX_4.c: In function 'main':
+..\src\EX_4.c:32:8: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  gets(s.name[i]);
+        ^
+        ->
+..\src\EX_4.c:35:15: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  scanf("%i",&s.roll[i]);
+               ^
+               ->
+..\src\EX_4.c:39:15: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  scanf("%f",&s.marks[i]);
+               ^
+               ->
+..\src\EX_4.c:46:53: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,s.name[i],i,s.roll[i],i,s.marks[i]);
+                                                     ^
+                                                     ->
+..\src\EX_4.c:46:65: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,s.name[i],i,s.roll[i],i,s.marks[i]);
+                                                                 ^
+                                                                 ->
+..\src\EX_4.c:46:77: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,s.name[i],i,s.roll[i],i,s.marks[i]);
+                                                                             ^
+                                                                             ->
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+15:35:47 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_4.o" "..\\src\\EX_4.c" 
+..\src\EX_4.c: In function 'main':
+..\src\EX_4.c:32:8: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  gets(s.name+i);
+        ^
+        ->
+..\src\EX_4.c:35:15: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  scanf("%i",&s.roll[i]);
+               ^
+               ->
+..\src\EX_4.c:39:15: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  scanf("%f",&s.marks[i]);
+               ^
+               ->
+..\src\EX_4.c:46:53: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,s.name[i],i,s.roll[i],i,s.marks[i]);
+                                                     ^
+                                                     ->
+..\src\EX_4.c:46:65: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,s.name[i],i,s.roll[i],i,s.marks[i]);
+                                                                 ^
+                                                                 ->
+..\src\EX_4.c:46:77: error: '(struct student *)&s' is a pointer; did you mean to use '->'?
+  printf(" name%i: %s\n roll%i:%d\n marks%i:%.2f",i,s.name[i],i,s.roll[i],i,s.marks[i]);
+                                                                             ^
+                                                                             ->
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+15:37:14 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_4.o" "..\\src\\EX_4.c" 
+gcc -o EX_4.exe "src\\EX_4.o" 
+Info: Nothing to build for EX_4
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+16:12:17 **** Incremental Build of configuration Debug for project EX_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_4.o" "..\\src\\EX_4.c" 
+gcc -o EX_4.exe "src\\EX_4.o" 
+16:12:19 **** Rebuild of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_5.o" "..\\src\\EX_5.c" 
+..\src\EX_5.c: In function 'main':
+..\src\EX_5.c:15:16: error: expected expression before '=' token
+ #define area(r)=pi*r*r
+                ^
+..\src\EX_5.c:26:26: note: in expansion of macro 'area'
+  printf("The area is %d",area(r));
+                          ^~~~
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+16:12:43 **** Incremental Build of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_5.o" "..\\src\\EX_5.c" 
+..\src\EX_5.c: In function 'main':
+..\src\EX_5.c:15:16: error: expected expression before '=' token
+ #define area(r)=(pi*r*r)
+                ^
+..\src\EX_5.c:26:26: note: in expansion of macro 'area'
+  printf("The area is %d",area(r));
+                          ^~~~
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+16:13:13 **** Incremental Build of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_5.o" "..\\src\\EX_5.c" 
+..\src\EX_5.c: In function 'main':
+..\src\EX_5.c:26:23: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("The area is %d",area(r));
+                       ^
+gcc -o EX_5.exe "src\\EX_5.o" 
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+16:13:30 **** Incremental Build of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_5.o" "..\\src\\EX_5.c" 
+gcc -o EX_5.exe "src\\EX_5.o" 
+Info: Nothing to build for EX_5
+Info: Nothing to build for EX_1
+Info: Nothing to build for EX_2
+Info: Nothing to build for EX_3
+Info: Nothing to build for EX_4
+16:15:09 **** Incremental Build of configuration Debug for project EX_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EX_5.o" "..\\src\\EX_5.c" 
+gcc -o EX_5.exe "src\\EX_5.o" 
+Info: Nothing to build for EX_5
