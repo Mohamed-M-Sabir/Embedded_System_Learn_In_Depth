@@ -1,0 +1,37 @@
+/*
+ ============================================================================
+ Name        : Q5.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct semployee{
+
+	char name[50];
+	int id;
+};
+int main() {
+
+	struct semployee *(*ptr_arr[3]);    //ptr_arr is a pointer point to an array of 3 elements each element is a pointer point to struct semployee
+	struct semployee emp1={"mohamed",1000};
+	struct semployee emp1={"adam",1001};
+	struct semployee emp1={"alex",1002};
+
+	return 0;
+}
+
+
+void print_employee_data(struct semployee *op){
+
+	printf("\n the name of employee is : ",*(op+2)->name);
+	fflush(stdout);
+	printf("\n the id of the employee is : ",*(*(op+2))->id);
+	fflush(stdout);
+
+}

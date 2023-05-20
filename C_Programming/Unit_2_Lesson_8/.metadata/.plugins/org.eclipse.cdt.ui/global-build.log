@@ -1,0 +1,148 @@
+10:48:36 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q5.o" "..\\src\\Q5.c" 
+..\src\Q5.c:13:33: warning: 'struct semployee' declared inside parameter list will not be visible outside of this definition or declaration
+ void print_employee_data(struct semployee *op);
+                                 ^~~~~~~~~
+..\src\Q5.c: In function 'main':
+..\src\Q5.c:28:22: warning: passing argument 1 of 'print_employee_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  print_employee_data(ptr);
+                      ^~~
+..\src\Q5.c:13:6: note: expected 'struct semployee *' but argument is of type 'struct semployee *'
+ void print_employee_data(struct semployee *op);
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c: At top level:
+..\src\Q5.c:34:6: error: conflicting types for 'print_employee_data'
+ void print_employee_data(struct semployee *op){
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c:13:6: note: previous declaration of 'print_employee_data' was here
+ void print_employee_data(struct semployee *op);
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c: In function 'print_employee_data':
+..\src\Q5.c:36:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n the name of employee is : ",op->name);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Q5.c:38:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n the id of the employee is : ",op->id);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for Q1
+Info: Nothing to build for Q2
+Info: Nothing to build for Q3
+Info: Nothing to build for Q4
+10:51:33 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q5.o" "..\\src\\Q5.c" 
+..\src\Q5.c:13:33: warning: 'struct semployee' declared inside parameter list will not be visible outside of this definition or declaration
+ void print_employee_data(struct semployee *op);
+                                 ^~~~~~~~~
+..\src\Q5.c: In function 'main':
+..\src\Q5.c:28:22: warning: passing argument 1 of 'print_employee_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  print_employee_data(&emp1);
+                      ^
+..\src\Q5.c:13:6: note: expected 'struct semployee *' but argument is of type 'struct semployee *'
+ void print_employee_data(struct semployee *op);
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c: At top level:
+..\src\Q5.c:34:6: error: conflicting types for 'print_employee_data'
+ void print_employee_data(struct semployee *op){
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c:13:6: note: previous declaration of 'print_employee_data' was here
+ void print_employee_data(struct semployee *op);
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c: In function 'print_employee_data':
+..\src\Q5.c:36:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n the name of employee is : ",op->name);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Q5.c:38:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n the id of the employee is : ",op->id);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for Q1
+Info: Nothing to build for Q2
+Info: Nothing to build for Q3
+Info: Nothing to build for Q4
+10:52:10 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q5.o" "..\\src\\Q5.c" 
+..\src\Q5.c:13:33: warning: 'struct semployee' declared inside parameter list will not be visible outside of this definition or declaration
+ void print_employee_data(struct semployee *op);
+                                 ^~~~~~~~~
+..\src\Q5.c: In function 'main':
+..\src\Q5.c:28:22: warning: passing argument 1 of 'print_employee_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  print_employee_data(&emp1);
+                      ^
+..\src\Q5.c:13:6: note: expected 'struct semployee *' but argument is of type 'struct semployee *'
+ void print_employee_data(struct semployee *op);
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c: At top level:
+..\src\Q5.c:34:6: error: conflicting types for 'print_employee_data'
+ void print_employee_data(struct semployee* op){
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c:13:6: note: previous declaration of 'print_employee_data' was here
+ void print_employee_data(struct semployee *op);
+      ^~~~~~~~~~~~~~~~~~~
+..\src\Q5.c: In function 'print_employee_data':
+..\src\Q5.c:36:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n the name of employee is : ",op->name);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Q5.c:38:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n the id of the employee is : ",op->id);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for Q1
+Info: Nothing to build for Q2
+Info: Nothing to build for Q3
+Info: Nothing to build for Q4
+11:02:50 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q5.o" "..\\src\\Q5.c" 
+..\src\Q5.c: In function 'print_employee_data':
+..\src\Q5.c:39:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n the name of employee is : ",op->name);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Q5.c:41:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("\n the id of the employee is : ",op->id);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o Q5.exe "src\\Q5.o" 
+Info: Nothing to build for Q5
+Info: Nothing to build for Q1
+Info: Nothing to build for Q2
+Info: Nothing to build for Q3
+Info: Nothing to build for Q4
+11:12:25 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q5.o" "..\\src\\Q5.c" 
+gcc -o Q5.exe "src\\Q5.o" 
+Info: Nothing to build for Q5
+Info: Nothing to build for Q1
+Info: Nothing to build for Q2
+Info: Nothing to build for Q3
+Info: Nothing to build for Q4
+11:13:36 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q5.o" "..\\src\\Q5.c" 
+..\src\Q5.c: In function 'main':
+..\src\Q5.c:31:22: warning: passing argument 1 of 'print_employee_data' from incompatible pointer type [-Wincompatible-pointer-types]
+  print_employee_data(arr);
+                      ^~~
+..\src\Q5.c:20:6: note: expected 'struct semployee *' but argument is of type 'struct semployee **'
+ void print_employee_data(struct semployee *op);
+      ^~~~~~~~~~~~~~~~~~~
+gcc -o Q5.exe "src\\Q5.o" 
+Info: Nothing to build for Q1
+Info: Nothing to build for Q2
+Info: Nothing to build for Q3
+Info: Nothing to build for Q4
+11:14:08 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q5.o" "..\\src\\Q5.c" 
+gcc -o Q5.exe "src\\Q5.o" 
+Info: Nothing to build for Q5
+Info: Nothing to build for Q1
+Info: Nothing to build for Q2
+Info: Nothing to build for Q3
+Info: Nothing to build for Q4
+11:15:45 **** Incremental Build of configuration Debug for project Q5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q5.o" "..\\src\\Q5.c" 
+gcc -o Q5.exe "src\\Q5.o" 
+Info: Nothing to build for Q5
+Info: Nothing to build for Q5
