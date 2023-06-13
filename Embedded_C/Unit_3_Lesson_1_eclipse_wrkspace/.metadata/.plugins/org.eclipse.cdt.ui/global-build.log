@@ -1,0 +1,48 @@
+07:11:34 **** Rebuild of configuration Debug for project Platform_Types ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Platform_Types.exe "src\\main.o" 
+07:11:40 **** Incremental Build of configuration Debug for project Platform_Types ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:20:2: error: unknown type name 'uint8_t'
+  uint8_t i;
+  ^~~~~~~
+..\src\main.c:21:2: error: unknown type name 'sint16_t'
+  sint16_t num1;
+  ^~~~~~~~
+..\src\main.c:22:2: error: unknown type name 'uint16_t'
+  uint16_t num2;
+  ^~~~~~~~
+..\src\main.c:23:2: error: unknown type name 'float32_t'
+  float32_t num3;
+  ^~~~~~~~~
+..\src\main.c:24:2: error: unknown type name 'float64_t'
+  float64_t result;
+  ^~~~~~~~~
+07:12:16 **** Incremental Build of configuration Debug for project Platform_Types ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:32:21: warning: format '%d' expects argument of type 'int', but argument 2 has type 'float64_t {aka double}' [-Wformat=]
+  printf("result is %d",result);
+                     ^
+..\src\main.c:29:17: warning: 'num1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   result=i*(num1+num2+num3);
+             ~~~~^~~~~
+..\src\main.c:29:17: warning: 'num2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+..\src\main.c:29:22: warning: 'num3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   result=i*(num1+num2+num3);
+            ~~~~~~~~~~^~~~~~
+gcc -o Platform_Types.exe "src\\main.o" 
+07:13:12 **** Incremental Build of configuration Debug for project Platform_Types ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Platform_Types.exe "src\\main.o" 
+Info: Nothing to build for Platform_Types
+07:14:23 **** Incremental Build of configuration Debug for project Platform_Types ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o Platform_Types.exe "src\\main.o" 
+Info: Nothing to build for Platform_Types

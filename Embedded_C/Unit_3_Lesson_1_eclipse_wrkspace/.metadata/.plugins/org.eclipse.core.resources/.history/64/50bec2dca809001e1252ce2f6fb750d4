@@ -1,0 +1,34 @@
+/*
+ ============================================================================
+ Name        : Platform_Types.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define max_iterator 20
+
+
+int main() {
+
+
+	uint8_t i;
+	sint16_t num1;
+	uint16_t num2;
+	float32_t num3;
+	float64_t result;
+
+	for(i=0 ; i<=max_iterator ; i++){
+
+		result=i*(num1+num2+num3);
+	}
+
+	printf("result is %d",result);
+
+	return 0;
+}
