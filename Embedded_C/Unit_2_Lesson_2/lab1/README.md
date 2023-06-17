@@ -30,32 +30,32 @@ arm-none-eabi-objdumb -D app.o
 arm-none-eabi-as -mcpu=arm926ej-s startup.s -o startup.o
 ```
 
-#### Linking linker_script.ld file with app file and get executable.elf file
+#### Linking linker_script.ld file with app file and get learn-in-depth.elf file
 
 ```
-arm-none-eabi-ld -T linker_script.ld app.o uart.o startup.o -o executable.elf
+arm-none-eabi-ld -T linker_script.ld app.o uart.o startup.o -o learn-in-depth.elf
 ```
 
-#### Disassemble executable.elf sections
+#### Disassemble elearn-in-depth.elf sections
 
 ```
-arm-none-eabi-objdump -h executable.elf
+arm-none-eabi-objdump -h learn-in-depth.elf
 ```
 
-#### Resolving executable.elf Symbols
+#### Resolving learn-in-depth.elf Symbols
 
 ```
-arm-none-eabi-nm executable.elf
+arm-none-eabi-nm learn-in-depth.elf
 ```
 
-#### Getting the binary executable from executable.elf file
+#### Getting the binary executable from learn-in-depth.elf file
 
 ```
-arm-none-eabi-objcopy -O binary executable.elf executable.bin
+arm-none-eabi-objcopy -O binary elearn-in-depth.elf learn-in-depth.bin
 ```
 
 #### Running The Binary File On Board Versatilepb Using Qemu Emulator
 
 ```
-qemu-system-arm -M versatilepb -m 128M -nographic -kernel executable.bin
+qemu-system-arm -M versatilepb -m 128M -nographic -kernel learn-in-depth.bin
 ```
