@@ -1,0 +1,23 @@
+13:20:08 **** Build of configuration Debug for project Toggle_led ****
+make -j16 all 
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c6tx.d" -MT"Core/Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c6tx.o" "../Core/Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -o "Toggle_led.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Mohamed Saber\OneDrive\Desktop\Learn_In_Depth\labs\embedded_diploma\Embedded_System_Learn_In_Depth\Embedded_C\Unit_3_Lesson_1_stm_wrkspace\Toggle_led\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Toggle_led.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Toggle_led.elf
+ 
+arm-none-eabi-objdump -h -S  Toggle_led.elf  > "Toggle_led.list"
+arm-none-eabi-objcopy  -O ihex  Toggle_led.elf  "Toggle_led.hex"
+arm-none-eabi-objcopy  -O binary  Toggle_led.elf  "Toggle_led.bin"
+arm-none-eabi-size   Toggle_led.elf 
+   text	   data	    bss	    dec	    hex	filename
+    624	      8	   1568	   2200	    898	Toggle_led.elf
+Finished building: Toggle_led.list
+Finished building: Toggle_led.hex
+Finished building: Toggle_led.bin
+Finished building: default.size.stdout
+ 
+ 
+ 
+ 
+
+13:20:15 Build Finished. 0 errors, 0 warnings. (took 6s.669ms)
+
